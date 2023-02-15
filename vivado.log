@@ -1,0 +1,2063 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 10 05:29:09 2021
+# Process ID: 4504
+# Current directory: C:/Users/DELL/16bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12300 C:\Users\DELL\16bit\16bit.xpr
+# Log file: C:/Users/DELL/16bit/vivado.log
+# Journal file: C:/Users/DELL/16bit\vivado.jou
+#-----------------------------------------------------------start_gui
+oopen_project C:/Users/DELL/16bit/16bit.xprINFO: [Project 1-313] Project file moved from 'F:/Intro to computer archeticture/Project/16bit' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/programs/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 752.824 ; gain = 63.871
+uupdate_compile_order -fileset sources_1reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [HDL 9-2994] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+WARNING: [HDL 9-2994] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [HDL 9-2994] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+WARNING: [HDL 9-2994] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Errordetection()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'singlebit()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lastbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'inbetween()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sixbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mainmodule()' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'recovery()' found in library 'xil_defaultlib'
+Duplicate found at line 1 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 1 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'CLA4()' found in library 'xil_defaultlib'
+Duplicate found at line 27 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 27 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'CLALogic()' found in library 'xil_defaultlib'
+Duplicate found at line 49 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 49 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'GPFullAdder()' found in library 'xil_defaultlib'
+Duplicate found at line 86 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 86 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mux()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv
+[Thu Jun 10 05:30:51 2021] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/16bit/16bit.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a12ticsg325-1L
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Cout' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[0]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[10]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[11]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[12]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[13]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[14]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[15]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[1]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[2]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[3]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[4]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[5]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[6]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[7]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[8]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'Sumfin[9]' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'err' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'gg1' matched to 'port' objects. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'pg14.500' not found. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+CRITICAL WARNING: [Common 17-163] Missing value for option 'delay', please type 'set_max_delay -help' for usage info. [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc:1]
+Finished Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 1614.969 ; gain = 845.160
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module recovery
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-311] analyzing module CLALogic
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recovery
+WARNING: [VRFC 10-2845] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [VRFC 10-311] analyzing module CLALogic
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1644.117 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:40]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Ci [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.CLALogic
+Compiling module xil_defaultlib.GPFullAdder
+Compiling module xil_defaultlib.CLA4
+Compiling module xil_defaultlib.recovery
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 10 05:33:06 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1644.117 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '18' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0xffff b=0xffc1  c_out=0xx sum=0xff80 error=0x1 
+a=0xffff b=0xffc1  c_out=0xx sum=0xeeb0 error=0x1 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:31 . Memory (MB): peak = 1644.117 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1651.988 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module recovery
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-311] analyzing module CLALogic
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recovery
+WARNING: [VRFC 10-2845] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [VRFC 10-311] analyzing module CLALogic
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:40]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Ci [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.CLALogic
+Compiling module xil_defaultlib.GPFullAdder
+Compiling module xil_defaultlib.CLA4
+Compiling module xil_defaultlib.recovery
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1651.988 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0xffff b=0x8e7f  c_out=0xx sum=0x8e7e error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1651.988 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a12ticsg325-1L
+Top: finalmodule
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+WARNING: [Synth 8-2490] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+WARNING: [Synth 8-2490] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1722.812 ; gain = 70.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finalmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'mainmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'sixbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'singlebit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-3848] Net a in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:24]
+WARNING: [Synth 8-3848] Net b in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'singlebit' (1#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'sixbit' (2#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'inbetween' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'inbetween' (3#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'lastbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'lastbit' (4#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mainmodule' (5#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'Errordetection' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Errordetection' (6#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-350] instance 'errdet' of module 'Errordetection' requires 4 connections, but only 3 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:41]
+INFO: [Synth 8-6157] synthesizing module 'recovery' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'CLALogic' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'CLALogic' (7#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6157] synthesizing module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'GPFullAdder' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'GPFullAdder' (8#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'CLA4' (9#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'recovery' (10#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (11#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'finalmodule' (12#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1765.207 ; gain = 113.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1765.207 ; gain = 113.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1765.207 ; gain = 113.219
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+Finished Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/finalmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/finalmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1900.727 ; gain = 248.738
+28 Infos, 66 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1900.727 ; gain = 248.738
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+WARNING: [Synth 8-2490] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+WARNING: [Synth 8-2490] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1900.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finalmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'mainmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'sixbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'singlebit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-3848] Net a in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:24]
+WARNING: [Synth 8-3848] Net b in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'singlebit' (1#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'sixbit' (2#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'inbetween' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'inbetween' (3#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'lastbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'lastbit' (4#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mainmodule' (5#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'Errordetection' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Errordetection' (6#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-350] instance 'errdet' of module 'Errordetection' requires 4 connections, but only 3 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:41]
+INFO: [Synth 8-6157] synthesizing module 'recovery' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'CLALogic' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'CLALogic' (7#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6157] synthesizing module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'GPFullAdder' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'GPFullAdder' (8#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'CLA4' (9#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'recovery' (10#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (11#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [Synth 8-689] width (1) of port connection 'sumad' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:51]
+WARNING: [Synth 8-689] width (1) of port connection 'sumrec' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:51]
+WARNING: [Synth 8-689] width (1) of port connection 'FinalSum' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:51]
+INFO: [Synth 8-6155] done synthesizing module 'finalmodule' (12#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1921.547 ; gain = 20.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1921.547 ; gain = 20.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1921.547 ; gain = 20.820
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+Finished Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/finalmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/finalmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1964.387 ; gain = 63.660
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module recovery
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-311] analyzing module CLALogic
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recovery
+WARNING: [VRFC 10-2845] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [VRFC 10-311] analyzing module CLALogic
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1964.387 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:40]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Ci [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.CLALogic
+Compiling module xil_defaultlib.GPFullAdder
+Compiling module xil_defaultlib.CLA4
+Compiling module xil_defaultlib.recovery
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1964.387 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0xffff b=0x8e7f  c_out=0x1 sum=0x8e7e error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1964.387 ; gain = 0.000
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+WARNING: [Synth 8-2490] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+WARNING: [Synth 8-2490] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1964.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finalmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'mainmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'sixbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'singlebit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-3848] Net a in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:24]
+WARNING: [Synth 8-3848] Net b in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'singlebit' (1#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'sixbit' (2#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'inbetween' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'inbetween' (3#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'lastbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'lastbit' (4#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mainmodule' (5#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'Errordetection' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Errordetection' (6#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-350] instance 'errdet' of module 'Errordetection' requires 4 connections, but only 3 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:39]
+INFO: [Synth 8-6157] synthesizing module 'recovery' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'CLALogic' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'CLALogic' (7#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [Synth 8-6157] synthesizing module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'GPFullAdder' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'GPFullAdder' (8#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'CLA4' (9#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [Synth 8-689] width (1) of port connection 'P' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+WARNING: [Synth 8-689] width (1) of port connection 'G' does not match port width (4) of module 'CLA4' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'recovery' (10#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+WARNING: [Synth 8-350] instance 'recov' of module 'recovery' requires 8 connections, but only 6 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (11#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [Synth 8-689] width (1) of port connection 'sumad' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [Synth 8-689] width (1) of port connection 'sumrec' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [Synth 8-689] width (1) of port connection 'FinalSum' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'finalmodule' (12#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1964.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1964.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1964.387 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+Finished Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/finalmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/finalmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1987.160 ; gain = 22.773
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module recovery
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-311] analyzing module CLALogic
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recovery
+WARNING: [VRFC 10-2845] overwriting previous definition of module recovery [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:1]
+INFO: [VRFC 10-311] analyzing module CLA4
+INFO: [VRFC 10-2458] undeclared symbol Co, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol PG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+INFO: [VRFC 10-2458] undeclared symbol GG, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:41]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4 [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:27]
+INFO: [VRFC 10-311] analyzing module CLALogic
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLALogic [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:49]
+INFO: [VRFC 10-311] analyzing module GPFullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module GPFullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:86]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Ci [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:20]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:21]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:22]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port P [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/recovery.sv:23]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.CLALogic
+Compiling module xil_defaultlib.GPFullAdder
+Compiling module xil_defaultlib.CLA4
+Compiling module xil_defaultlib.recovery
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1987.160 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0xffff b=0x8e41  c_out=0x1 sum=0x8e00 error=0x1 
+a=0xffff b=0x8e41  c_out=0x0 sum=0x7d30 error=0x1 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 1987.160 ; gain = 0.000
+add_files -norecurse {C:/Users/DELL/Downloads/FullAdder.sv C:/Users/DELL/Downloads/CLA16Bit.sv C:/Users/DELL/Downloads/CLA4Bit.sv C:/Users/DELL/Downloads/LCU.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4Bit [C:/Users/DELL/Downloads/CLA4Bit.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+ERROR: [Synth 8-1766] cannot open include file CLA16Bit.sv [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:24]
+INFO: [Synth 8-2350] module mux ignored due to previous errors [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-2350] module finalmodule ignored due to previous errors [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+Failed to read verilog 'C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv'
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/DELL/16bit/16bit.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module CLA4Bit [C:/Users/DELL/Downloads/CLA4Bit.sv:25]
+WARNING: [HDL 9-2994] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [HDL 9-2994] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'FullAdder()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/Downloads/FullAdder.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LCU()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/Downloads/LCU.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'CLA4Bit()' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+	(Active) Duplicate found at line 25 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Errordetection()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'singlebit()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lastbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'inbetween()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sixbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mainmodule()' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mux()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv
+[Thu Jun 10 06:06:42 2021] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/16bit/16bit.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/DELL/16bit/16bit.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+WARNING: [HDL 9-2994] overwriting previous definition of module CLA4Bit [C:/Users/DELL/Downloads/CLA4Bit.sv:25]
+WARNING: [HDL 9-2994] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [HDL 9-2994] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [HDL 9-2994] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'FullAdder()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/Downloads/FullAdder.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LCU()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+Duplicate found at line 23 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/Downloads/LCU.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'CLA4Bit()' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file C:/Users/DELL/Downloads/CLA16Bit.sv
+	(Active) Duplicate found at line 25 of file C:/Users/DELL/Downloads/CLA4Bit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Errordetection()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'singlebit()' found in library 'xil_defaultlib'
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+Duplicate found at line 23 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'lastbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'inbetween()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sixbit()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mainmodule()' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 25 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'mux()' found in library 'xil_defaultlib'
+Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv
+	(Active) Duplicate found at line 24 of file C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv
+[Thu Jun 10 06:08:39 2021] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/16bit/16bit.runs/synth_1/runme.log
+current_design synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+current_design rtl_1
+refresh_design
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4Bit [C:/Users/DELL/Downloads/CLA4Bit.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+WARNING: [Synth 8-2490] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA4Bit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module CLA16Bit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:25]
+WARNING: [Synth 8-2490] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2173.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finalmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'mainmodule' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'sixbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'singlebit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-3848] Net a in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:24]
+WARNING: [Synth 8-3848] Net b in module/entity singlebit does not have driver. [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'singlebit' (1#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:31]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'sixbit' (2#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'inbetween' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'inbetween' (3#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'lastbit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'lastbit' (4#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mainmodule' (5#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'Errordetection' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Errordetection' (6#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+WARNING: [Synth 8-350] instance 'errdet' of module 'Errordetection' requires 4 connections, but only 3 given [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:39]
+INFO: [Synth 8-6157] synthesizing module 'CLA16Bit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'LCU' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'LCU' (7#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'CLA4Bit' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'FullAdder' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'FullAdder' (8#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'CLA4Bit' (9#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'CLA16Bit' (10#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (11#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+WARNING: [Synth 8-689] width (1) of port connection 'sumad' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [Synth 8-689] width (1) of port connection 'sumrec' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+WARNING: [Synth 8-689] width (1) of port connection 'FinalSum' does not match port width (16) of module 'mux' [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'finalmodule' (12#1) [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2178.977 ; gain = 4.992
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2178.977 ; gain = 4.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2178.977 ; gain = 4.992
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+Finished Parsing XDC File [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/16bit/16bit.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/finalmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/finalmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2230.203 ; gain = 56.219
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/Downloads/CLA16Bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/Downloads/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/Downloads/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/Downloads/CLA4Bit.sv:44]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/Downloads/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/Downloads/CLA16Bit.sv:38]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/Downloads/CLA4Bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/Downloads/CLA4Bit.sv:44]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4Bit [C:/Users/DELL/Downloads/CLA4Bit.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/Downloads/FullAdder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/Downloads/LCU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:44]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA4Bit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:25]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+WARNING: [VRFC 10-2845] overwriting previous definition of module CLA16Bit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:25]
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.LCU
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.CLA4Bit
+Compiling module xil_defaultlib.CLA16Bit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0xffff b=0x8e41  c_out=0x1 sum=0x8e00 error=0x1 
+a=0xffff b=0x8e41  c_out=0x1 sum=0x8e40 error=0x1 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 2230.203 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:44]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.LCU
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.CLA4Bit
+Compiling module xil_defaultlib.CLA16Bit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0x3524 b=0x5e81  c_out=0x0 sum=0x93a5 error=0x0 
+a=0xd609 b=0x5663  c_out=0x1 sum=0x2c6c error=0x0 
+a=0x7b0d b=0x998d  c_out=0x1 sum=0x149a error=0x0 
+a=0x8465 b=0x5212  c_out=0x0 sum=0xd677 error=0x0 
+a=0xe301 b=0xcd0d  c_out=0x1 sum=0xb00e error=0x0 
+a=0xf176 b=0xcd3d  c_out=0x1 sum=0xbeb3 error=0x0 
+a=0x57ed b=0xf78c  c_out=0x1 sum=0x4f79 error=0x0 
+a=0xe9f9 b=0x24c6  c_out=0x1 sum=0xebf error=0x0 
+a=0x84c5 b=0xd2aa  c_out=0x1 sum=0x576f error=0x0 
+a=0xf7e5 b=0x7277  c_out=0x1 sum=0x6a5c error=0x0 
+a=0xd612 b=0xdb8f  c_out=0x1 sum=0xb1a1 error=0x0 
+a=0x69f2 b=0x96ce  c_out=0x0 sum=0xe0c0 error=0x1 
+a=0x7ae8 b=0x4ec5  c_out=0x0 sum=0xc9ad error=0x0 
+a=0x495c b=0x28bd  c_out=0x0 sum=0x7219 error=0x0 
+a=0x582d b=0x2665  c_out=0x0 sum=0x7e92 error=0x1 
+a=0x6263 b=0x870a  c_out=0x0 sum=0xe96d error=0x0 
+a=0x2280 b=0x2120  c_out=0x0 sum=0x43a0 error=0x0 
+a=0x45aa b=0xcc9d  c_out=0x1 sum=0x1247 error=0x0 
+a=0x3e96 b=0xb813  c_out=0x0 sum=0xf6a9 error=0x0 
+a=0x380d b=0xd653  c_out=0x1 sum=0xe60 error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 2230.203 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:44]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.LCU
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.CLA4Bit
+Compiling module xil_defaultlib.CLA16Bit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0x3524 b=0x5e81  c_out=0x0 sum=0x93a5 error=0x0 
+a=0xd609 b=0x5663  c_out=0x1 sum=0x2c6c error=0x0 
+a=0x7b0d b=0x998d  c_out=0x1 sum=0x149a error=0x0 
+a=0x8465 b=0x5212  c_out=0x0 sum=0xd677 error=0x0 
+a=0xe301 b=0xcd0d  c_out=0x1 sum=0xb00e error=0x0 
+a=0xf176 b=0xcd3d  c_out=0x1 sum=0xbeb3 error=0x0 
+a=0x57ed b=0xf78c  c_out=0x1 sum=0x4f79 error=0x0 
+a=0xe9f9 b=0x24c6  c_out=0x1 sum=0xebf error=0x0 
+a=0x84c5 b=0xd2aa  c_out=0x1 sum=0x576f error=0x0 
+a=0xf7e5 b=0x7277  c_out=0x1 sum=0x6a5c error=0x0 
+a=0xd612 b=0xdb8f  c_out=0x1 sum=0xb1a1 error=0x0 
+a=0x69f2 b=0x96ce  c_out=0x0 sum=0xe0c0 error=0x1 
+a=0x7ae8 b=0x4ec5  c_out=0x0 sum=0xc9ad error=0x0 
+a=0x495c b=0x28bd  c_out=0x0 sum=0x7219 error=0x0 
+a=0x582d b=0x2665  c_out=0x0 sum=0x7e92 error=0x1 
+a=0x6263 b=0x870a  c_out=0x0 sum=0xe96d error=0x0 
+a=0x2280 b=0x2120  c_out=0x0 sum=0x43a0 error=0x0 
+a=0x45aa b=0xcc9d  c_out=0x1 sum=0x1247 error=0x0 
+a=0x3e96 b=0xb813  c_out=0x0 sum=0xf6a9 error=0x0 
+a=0x380d b=0xd653  c_out=0x1 sum=0xe60 error=0x0 
+a=0xdd6b b=0x2ad5  c_out=0x1 sum=0x800 error=0x1 
+a=0x4a02 b=0x3eae  c_out=0x0 sum=0x88b0 error=0x0 
+a=0xe91d b=0x72cf  c_out=0x1 sum=0x5bec error=0x0 
+a=0x4923 b=0x650a  c_out=0x0 sum=0xae2d error=0x0 
+a=0xaca b=0x4c3c  c_out=0x0 sum=0x5706 error=0x0 
+a=0xbdf2 b=0x618a  c_out=0x1 sum=0x1f7c error=0x0 
+a=0xb341 b=0x34d8  c_out=0x0 sum=0xe819 error=0x0 
+a=0xf378 b=0x1289  c_out=0x1 sum=0x401 error=0x0 
+a=0xdeb b=0x65b6  c_out=0x0 sum=0x73a1 error=0x0 
+a=0xf9c6 b=0x13ae  c_out=0x1 sum=0xd74 error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 2230.203 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:44]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.LCU
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.CLA4Bit
+Compiling module xil_defaultlib.CLA16Bit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0x3524 b=0x5e81  c_out=0x0 sum=0x93a5 error=0x0 
+a=0xd609 b=0x5663  c_out=0x1 sum=0x2c6c error=0x0 
+a=0x7b0d b=0x998d  c_out=0x1 sum=0x149a error=0x0 
+a=0x8465 b=0x5212  c_out=0x0 sum=0xd677 error=0x0 
+a=0xe301 b=0xcd0d  c_out=0x1 sum=0xb00e error=0x0 
+a=0xf176 b=0xcd3d  c_out=0x1 sum=0xbeb3 error=0x0 
+a=0x57ed b=0xf78c  c_out=0x1 sum=0x4f79 error=0x0 
+a=0xe9f9 b=0x24c6  c_out=0x1 sum=0xebf error=0x0 
+a=0x84c5 b=0xd2aa  c_out=0x1 sum=0x576f error=0x0 
+a=0xf7e5 b=0x7277  c_out=0x1 sum=0x6a5c error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 2230.203 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Errordetection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+WARNING: [VRFC 10-2845] overwriting previous definition of module singlebit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-311] analyzing module mainmodule
+INFO: [VRFC 10-311] analyzing module Errordetection
+WARNING: [VRFC 10-2845] overwriting previous definition of module Errordetection [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/Errordetection.sv:23]
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module LCU
+INFO: [VRFC 10-311] analyzing module FullAdder
+WARNING: [VRFC 10-2845] overwriting previous definition of module FullAdder [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/FullAdder.sv:23]
+INFO: [VRFC 10-311] analyzing module LCU
+WARNING: [VRFC 10-2845] overwriting previous definition of module LCU [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/LCU.sv:23]
+INFO: [VRFC 10-311] analyzing module CLA4Bit
+INFO: [VRFC 10-2458] undeclared symbol cout, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA4Bit.sv:44]
+INFO: [VRFC 10-311] analyzing module CLA16Bit
+INFO: [VRFC 10-2458] undeclared symbol PG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-2458] undeclared symbol GG15, assumed default net type wire [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/CLA16Bit.sv:38]
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module finalmodule
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+WARNING: [VRFC 10-2845] overwriting previous definition of module inbetween [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module lastbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/lastbit.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module lastbit
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module inbetween
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+WARNING: [VRFC 10-2845] overwriting previous definition of module sixbit [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv:24]
+INFO: [VRFC 10-311] analyzing module mainmodule
+WARNING: [VRFC 10-2845] overwriting previous definition of module mainmodule [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mainmodule.sv:25]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/mux.sv:24]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sources_1/new/sixbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebit
+INFO: [VRFC 10-311] analyzing module sixbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/DELL/16bit/16bit.srcs/sim_1/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/programs/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d6a8d0067f6a43dba4d036f5427a30b9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:38]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:47]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 16 for port sumad [C:/Users/DELL/16bit/16bit.srcs/sources_1/new/finalmodule.sv:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebit
+Compiling module xil_defaultlib.sixbit
+Compiling module xil_defaultlib.inbetween
+Compiling module xil_defaultlib.lastbit
+Compiling module xil_defaultlib.mainmodule
+Compiling module xil_defaultlib.Errordetection
+Compiling module xil_defaultlib.LCU
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.CLA4Bit
+Compiling module xil_defaultlib.CLA16Bit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.finalmodule
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2230.203 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/16bit/16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+a=0x0 b=0x0  c_out=0x0 sum=0x0 error=0x0 
+a=0x3524 b=0x5e81  c_out=0x0 sum=0x93a5 error=0x0 
+a=0xd609 b=0x5663  c_out=0x1 sum=0x2c6c error=0x0 
+a=0x7b0d b=0x998d  c_out=0x1 sum=0x149a error=0x0 
+a=0x8465 b=0x5212  c_out=0x0 sum=0xd677 error=0x0 
+a=0xe301 b=0xcd0d  c_out=0x1 sum=0xb00e error=0x0 
+a=0xf176 b=0xcd3d  c_out=0x1 sum=0xbeb3 error=0x0 
+a=0x57ed b=0xf78c  c_out=0x1 sum=0x4f79 error=0x0 
+a=0xe9f9 b=0x24c6  c_out=0x1 sum=0xebf error=0x0 
+a=0x84c5 b=0xd2aa  c_out=0x1 sum=0x576f error=0x0 
+a=0xf7e5 b=0x7277  c_out=0x1 sum=0x6a5c error=0x0 
+a=0xd612 b=0xdb8f  c_out=0x1 sum=0xb1a1 error=0x0 
+a=0x69f2 b=0x96ce  c_out=0x0 sum=0xe0c0 error=0x1 
+a=0x7ae8 b=0x4ec5  c_out=0x0 sum=0xc9ad error=0x0 
+a=0x495c b=0x28bd  c_out=0x0 sum=0x7219 error=0x0 
+a=0x582d b=0x2665  c_out=0x0 sum=0x7e92 error=0x1 
+a=0x6263 b=0x870a  c_out=0x0 sum=0xe96d error=0x0 
+a=0x2280 b=0x2120  c_out=0x0 sum=0x43a0 error=0x0 
+a=0x45aa b=0xcc9d  c_out=0x1 sum=0x1247 error=0x0 
+a=0x3e96 b=0xb813  c_out=0x0 sum=0xf6a9 error=0x0 
+a=0x380d b=0xd653  c_out=0x1 sum=0xe60 error=0x0 
+a=0xdd6b b=0x2ad5  c_out=0x1 sum=0x800 error=0x1 
+a=0x4a02 b=0x3eae  c_out=0x0 sum=0x88b0 error=0x0 
+a=0xe91d b=0x72cf  c_out=0x1 sum=0x5bec error=0x0 
+a=0x4923 b=0x650a  c_out=0x0 sum=0xae2d error=0x0 
+a=0xaca b=0x4c3c  c_out=0x0 sum=0x5706 error=0x0 
+a=0xbdf2 b=0x618a  c_out=0x1 sum=0x1f7c error=0x0 
+a=0xb341 b=0x34d8  c_out=0x0 sum=0xe819 error=0x0 
+a=0xf378 b=0x1289  c_out=0x1 sum=0x401 error=0x0 
+a=0xdeb b=0x65b6  c_out=0x0 sum=0x73a1 error=0x0 
+a=0xf9c6 b=0x13ae  c_out=0x1 sum=0xd74 error=0x0 
+a=0x2bc b=0xdd2a  c_out=0x0 sum=0xdfe6 error=0x1 
+a=0x9a0b b=0xbe71  c_out=0x1 sum=0x587c error=0x0 
+a=0x4185 b=0x554f  c_out=0x0 sum=0x96d4 error=0x0 
+a=0x603b b=0x333a  c_out=0x0 sum=0x9375 error=0x0 
+a=0x327e b=0x4b15  c_out=0x0 sum=0x7d93 error=0x0 
+a=0x9bf1 b=0x4bd9  c_out=0x0 sum=0xe7ca error=0x0 
+a=0x762 b=0xfb4c  c_out=0x0 sum=0x82ae error=0x1 
+a=0x559f b=0xa18f  c_out=0x0 sum=0xf72e error=0x0 
+a=0xa9f8 b=0x60b7  c_out=0x1 sum=0xaaf error=0x0 
+a=0x569f b=0x945c  c_out=0x0 sum=0xeafb error=0x0 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 2230.203 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 10 06:38:48 2021...

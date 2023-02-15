@@ -1,0 +1,290 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun  6 22:18:15 2021
+# Process ID: 13304
+# Current directory: F:/Intro to computer archeticture/Project/16bit/16bit.runs/synth_2
+# Command line: vivado.exe -log inbetween.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source inbetween.tcl
+# Log file: F:/Intro to computer archeticture/Project/16bit/16bit.runs/synth_2/inbetween.vds
+# Journal file: F:/Intro to computer archeticture/Project/16bit/16bit.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source inbetween.tcl -notrace
+Command: synth_design -top inbetween -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11308 
+WARNING: [Synth 8-2490] overwriting previous definition of module singlebit [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 360.973 ; gain = 112.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'inbetween' [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'singlebit' [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-3848] Net a in module/entity singlebit does not have driver. [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/singlebit.sv:24]
+WARNING: [Synth 8-3848] Net b in module/entity singlebit does not have driver. [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/singlebit.sv:25]
+INFO: [Synth 8-6155] done synthesizing module 'singlebit' (1#1) [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/singlebit.sv:23]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:32]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:33]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:34]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:35]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:36]
+WARNING: [Synth 8-6104] Input port 'A' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-6104] Input port 'B' has an internal driver [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+WARNING: [Synth 8-350] instance 'A6' of module 'singlebit' requires 5 connections, but only 4 given [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:37]
+INFO: [Synth 8-6155] done synthesizing module 'inbetween' (2#1) [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/sources_1/new/inbetween.sv:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 394.000 ; gain = 145.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 394.000 ; gain = 145.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 394.000 ; gain = 145.152
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/constrs_1/new/time.xdc]
+Finished Parsing XDC File [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Intro to computer archeticture/Project/16bit/16bit.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/inbetween_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/inbetween_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 698.594 ; gain = 1.289
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module singlebit 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[5]
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[4]
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[3]
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[2]
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[1]
+WARNING: [Synth 8-3331] design inbetween has unconnected port A[0]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[5]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[4]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[3]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[2]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[1]
+WARNING: [Synth 8-3331] design inbetween has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     1|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 698.594 ; gain = 145.152
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 698.594 ; gain = 449.746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 706.547 ; gain = 470.434
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/Intro to computer archeticture/Project/16bit/16bit.runs/synth_2/inbetween.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file inbetween_utilization_synth.rpt -pb inbetween_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 706.547 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  6 22:19:04 2021...

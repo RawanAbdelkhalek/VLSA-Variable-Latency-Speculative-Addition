@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../16bit.srcs/sources_1/new/Errordetection.sv" \
+"../../../../16bit.srcs/sources_1/new/inbetween.sv" \
+"../../../../16bit.srcs/sources_1/new/lastbit.sv" \
+"../../../../16bit.srcs/sources_1/new/mainmodule.sv" \
+"../../../../16bit.srcs/sources_1/new/mux.sv" \
+"../../../../16bit.srcs/sources_1/new/recovery.sv" \
+"../../../../16bit.srcs/sources_1/new/sixbit.sv" \
+"../../../../16bit.srcs/sources_1/new/finalmodule.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
